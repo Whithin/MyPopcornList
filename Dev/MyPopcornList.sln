@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{53445792-47F4-49F6-9F7F-FC28EB6C391C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{53445792-47F4-49F6-9F7F-FC28EB6C391C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AE25441-E9DB-43EC-A847-12E1B23A3EBA} = {5AE25441-E9DB-43EC-A847-12E1B23A3EBA}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{6E991461-FC19-41B8-A8CC-8F431537512A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{6E991461-FC19-41B8-A8CC-8F431537512A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao", "Dao\Dao.csproj", "{5AE25441-E9DB-43EC-A847-12E1B23A3EBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{6E991461-FC19-41B8-A8CC-8F431537512A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E991461-FC19-41B8-A8CC-8F431537512A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E991461-FC19-41B8-A8CC-8F431537512A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE25441-E9DB-43EC-A847-12E1B23A3EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE25441-E9DB-43EC-A847-12E1B23A3EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE25441-E9DB-43EC-A847-12E1B23A3EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE25441-E9DB-43EC-A847-12E1B23A3EBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
