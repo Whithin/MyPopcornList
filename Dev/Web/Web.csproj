@@ -11,13 +11,15 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
-    <PackageReference Include="NHibernate" Version="5.2.11" />
+    <PackageReference Include="NHibernate" Version="5.5.2" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Action\Action.csproj" />
+    <ProjectReference Include="..\Dao\Dao.csproj" />
     <ProjectReference Include="..\Model\Model.csproj" />
   </ItemGroup>
 
